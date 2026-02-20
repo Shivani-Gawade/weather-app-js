@@ -34,12 +34,13 @@ JavaScript – Logic, API calls, and DOM manipulation
 
 ## Folder Structure
 
-weather-app/
-│
-├── index.html
-├── style.css
-├── weatherApp.js
-└── README.md
+weather-app
+ ├─ screenshot
+ │   ├─ weather-app-home.png
+ │   └─ weather-app-search.png
+ ├─ index.html
+ ├─ style.css
+ └─ script.js
 
 ## Live Demo
 https://github.com/Shivani-Gawade/weather-app.git
@@ -47,10 +48,10 @@ https://github.com/Shivani-Gawade/weather-app.git
 ## Screenshots
 
 ### Home
-![Weather App Home](screenshots/weather-app-home.png)
+![Weather App Home](screenshot/weather-app-home.png)
 
 ### Search Result
-![Weather App Search](screenshots/weather-app-search.png)
+![Weather App Search](screenshot/weather-app-search.png)
 
 ## Author
 
