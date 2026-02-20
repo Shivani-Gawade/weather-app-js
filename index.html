@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css"
+      integrity="sha512-r/Gan7PMSRovDus++vDS2Ayutc/cSdl268u047n4z+k7GYuR7Hiw71FsT3QQxdKJBVHYttOJ6IGLnlM9IoMToQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Weather App</h2>
+
+      <div class="box-container">
+        <div class="search-box">
+          <input type="text" id="city" placeholder="Search city..." />
+          <button class="search-btn">
+            <i class="fa fa-solid fa-search"></i>
+          </button>
+        </div>
+
+        <div class="weather-card">
+          <div>
+            <div class="temp">27°C</div>
+            <div class="city">London</div>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-cloud weather-icon"></i>
+          </div>
+
+          <div class="details">
+            <div class="detail-box">
+              <i class="fa-solid fa-tint"></i>
+              <div class="text">
+                <p>Humidity</p>
+                <span class="humidity">32%</span>
+              </div>
+            </div>
+
+            <div class="detail-box">
+              <i class="fa-solid fa-wind"></i>
+              <div class="text">
+                <p>Wind</p>
+                <span class="wind">15 km/h</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="weatherApp.js"></script>
+
+  </body>
+</html>

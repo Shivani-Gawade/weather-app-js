@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* main body */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6EC1E4, #4A90E2);
+    text-align: center;
+}
+
+.container{
+    width: 25vw;
+    height: 70vh;
+}
+
+.box-container{
+    width: 26vw;
+    padding: 1.4rem;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+}
+
+.title{
+    color: #1b1a1a;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+/* search box */
+.search-box{
+    border-radius: 1.2rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.search-box input{
+    width: 100%;
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    border-radius: 1.2rem; 
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-box button{
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #1f3c55;
+}
+
+/* weather-card */
+.weather-card{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.temp {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1f3c55;
+}
+
+.city {
+    font-size: 1.4rem;
+    color: #1f3c55;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    font-size: 5rem;
+    margin: 1rem 0;
+    color:#1f3c55;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    color:#1f3c55;
+}
+
+.detail-box {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.detail-box .text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.detail-box p {
+    font-size: 1rem;
+    color: #1f3c55;
+    margin: 0;
+    font-weight: 500;
+}
+
+.detail-box span {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+
+.detail-box i{
+    font-size: 1.5rem;
+}
+
