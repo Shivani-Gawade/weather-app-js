@@ -48,10 +48,10 @@ https://github.com/Shivani-Gawade/weather-app.git
 ## Screenshots
 
 ### Home
-![Weather App Home](screenshot/weather-app-home.png)
+![Weather App Home](Screenshot/weather-app-home.png)
 
 ### Search Result
-![Weather App Search](screenshot/weather-app-search.png)
+![Weather App Search](Screenshot/weather-app-search.png)
 
 ## Author
 
