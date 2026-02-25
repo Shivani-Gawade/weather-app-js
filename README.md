@@ -43,7 +43,7 @@ weather-app
  └─ script.js
 
 ## Live Demo
-https://github.com/Shivani-Gawade/weather-app.git
+https://shivani-gawade.github.io/weather-app-js/
 
 ## Screenshots
 
