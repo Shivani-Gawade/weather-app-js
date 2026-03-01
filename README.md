@@ -32,15 +32,39 @@ JavaScript – Logic, API calls, and DOM manipulation
 2. Open the project folder.
 3. Open index.html in your browser.
 
+## Project Flow (How the App Works)
+
+User enters city
+      ↓
+JavaScript Fetch API request
+      ↓
+Weather API server response (JSON)
+      ↓
+JavaScript parses data
+      ↓
+DOM updated dynamically
+
+## Learning Outcomes
+
+- Integrated a real-time REST API using JavaScript Fetch API.
+- Practiced asynchronous programming with async/await and JSON data handling.
+- Strengthened DOM manipulation by dynamically updating UI based on API responses.
+
 ## Folder Structure
 
-weather-app
- ├─ screenshot
- │   ├─ weather-app-home.png
- │   └─ weather-app-search.png
- ├─ index.html
- ├─ style.css
- └─ script.js
+'''
+weather-app-js/
+│
+├── index.html          
+├── style.css           
+├── script.js           
+│
+├── Screenshot/             
+│     ├── weather-app-home.png
+│     ├── weather-app-search.png
+│     
+└── README.md           
+'''
 
 ## Live Demo
 https://shivani-gawade.github.io/weather-app-js/
