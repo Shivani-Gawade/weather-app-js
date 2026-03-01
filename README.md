@@ -52,7 +52,6 @@ DOM updated dynamically
 
 ## Folder Structure
 
-'''
 weather-app-js/
 │
 ├── index.html          
@@ -64,7 +63,7 @@ weather-app-js/
 │     ├── weather-app-search.png
 │     
 └── README.md           
-'''
+
 
 ## Live Demo
 https://shivani-gawade.github.io/weather-app-js/
